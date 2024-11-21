@@ -10,20 +10,20 @@
 public class Kontak {
     private int id;
     private String nama;
-    private String nomor;
+    private String nomor_telepon;
     private String kategori;
 
     // Konstruktor
-    public Kontak(int id, String nama, String nomor, String kategori) {
+    public Kontak(int id, String nama, String nomor_telepon, String kategori) {
         this.id = id;
         this.nama = nama;
-        this.nomor = nomor;
+        this.nomor_telepon = nomor_telepon;
         this.kategori = kategori;
     }
 
     // Getter dan Setter
     public int getId() { return id; }
     public String getNama() { return nama; }
-    public String getNomor() { return nomor; }
+    public String getNomor_telepon() { return nomor_telepon; }
     public String getKategori() { return kategori; }
 }
