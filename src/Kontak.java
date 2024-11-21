@@ -25,6 +25,5 @@ public class Kontak {
     public int getId() { return id; }
     public String getNama() { return nama; }
     public String getNomor() { return nomor; }
-    public String getKategori() { return kategori; }
-
+    public String getKategori() { return kategori; }
 }
